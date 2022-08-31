@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: maroon;
+}
+
+.main-container {
+  height: 70px;
+  width: 600px;
+  background-color: darkblue;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 650px;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+
+.search-field, .submit-btn{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.search-field {
+  font-size: 1rem;
+  color: black;
+}
+
+.submit-btn {
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.main-card {
+  background-color: white;
+  height: 350px;
+  width: 300px;
+  box-shadow: 1px 2px 1px #111;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 55px;
+}
+
+.main-card img {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
